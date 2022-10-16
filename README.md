@@ -59,6 +59,7 @@ $ npm run dev
 #### Mobile
 Rodando a aplicação mobile, primeiro iniciar o servidor e depois o próprio "mobile":
 ```
+$ npm install
 $ npx expo whoami
 $ expo start 
 ```
