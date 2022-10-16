@@ -1,7 +1,7 @@
 # NLW eSports Trilha Ignite - encontre-seu-duo
 Software para encontrar duo de jogos online
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Linguagens e tecnologias utilizadas
 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [TypeScript](https://www.typescriptlang.org)
