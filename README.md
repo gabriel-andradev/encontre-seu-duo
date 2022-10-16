@@ -26,9 +26,9 @@ Software para encontrar duo de jogos online
 
 ## Design da aplicação Mobile
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/101130704/196013465-f603e84f-eab5-4bbd-84a8-d06adcd94e9d.png" width="310em" hspace="12"/>
-  <img src="https://user-images.githubusercontent.com/101130704/196013469-8ab4b319-5f42-4fba-9b47-b1c351e2b8c8.png" width="310em" hspace="12"/>
-  <img src="https://user-images.githubusercontent.com/101130704/196013471-be9eab05-dc0d-4536-8c34-4563f2983c22.png" width="310em" hspace="12"/>
+  <img src="https://user-images.githubusercontent.com/101130704/196013465-f603e84f-eab5-4bbd-84a8-d06adcd94e9d.png" width="300em" hspace="12"/>
+  <img src="https://user-images.githubusercontent.com/101130704/196013469-8ab4b319-5f42-4fba-9b47-b1c351e2b8c8.png" width="300em" hspace="12"/>
+  <img src="https://user-images.githubusercontent.com/101130704/196013471-be9eab05-dc0d-4536-8c34-4563f2983c22.png" width="300em" hspace="12"/>
 </p>
 
 ## 🕹️ Como Utilizar
