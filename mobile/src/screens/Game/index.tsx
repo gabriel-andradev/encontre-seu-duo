@@ -15,6 +15,7 @@ import { DuoCard, DuoCardProps } from '../../components/DuoCard';
 import { Heading } from '../../components/Heading';
 import { Background } from '../../components/background';
 import { DuoMatch } from '../../components/DuoMatch';
+import myIP from '../../utils/myIP';
 
 
 export function Game() {
@@ -30,7 +31,7 @@ export function Game() {
   }
 
   async function getDiscordUser(adsId: string) {
-    fetch(`http://192.168.0.102:3333/ads/${adsId}/discord`)
+    fetch(`${myIP}:3333/ads/${adsId}/discord`)
       .then(response => response.json())
       .then(data => {
         setDiscordDuoSelected(data.discord);
@@ -38,7 +39,7 @@ export function Game() {
   }
 
   useEffect(() => {
-    fetch(`http://192.168.0.102:3333/games/${game.id}/ads`)
+    fetch(`${myIP}:3333/games/${game.id}/ads`)
       .then(response => response.json())
       .then(data => setDuos(data));
   }, []);

@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import logoImg from '../../assets/logo-nlw-esports.png';
 import { Background } from '../../components/background';
 import { useNavigation } from '@react-navigation/native';
+import myIP from '../../utils/myIP';
 
 
 export function Home() {
@@ -19,7 +20,7 @@ export function Home() {
   }
 
   useEffect(() => {
-    fetch('http://192.168.0.102:3333/games')
+    fetch(`${myIP}:3333/games`)
       .then(response => response.json())
       .then(data => setGames(data));
   }, []);
